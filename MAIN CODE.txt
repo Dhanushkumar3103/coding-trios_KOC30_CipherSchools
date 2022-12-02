@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> fasion-site </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mediaStyle.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/fashion.ico">
+</head>
+<body>
+	<header>
+		<div class="header_wrapper">
+			<div class="logo_icon_wrapper">
+				<div class="logo">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdzI88by7lfpUp3zXalvOytrTurKYUIFGzZA&usqp=CAU">
+				</div>
+				<div class="icon">
+					<a href="" id="icon1-a"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
+					<a href="" id="icon2-a"><i class="fas fa-user"></i><span>Guest</span></a>
+				</div>
+			</div>
+			<div class="nav_search_wrapper">
+				<div class="navigation">
+					<ul>
+						<li title="home"><a href="">home</a></li>
+						<li><a href="">new arrivals</a></li>
+						<li><a href="">deals</a></li>
+						<li><a href="">fashion</a></li>
+						<li><a href="">furniture</a></li>
+						<li><a href="">appliances</a></li>
+						<li><a href="">mobiles</a></li>
+						<li><a href="">beauty</a></li>
+					</ul>
+				</div>
+				<div class="search-btn">
+					<input type="text" name="" placeholder="search something here">
+					<a href=""><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="big_image">
+		<div class="main_image">
+			<img src="https://mumbai.mallsmarket.com/sites/default/files/photos/events/rcity-mall-4-days-mega-sale-31dec-3jan2021-1.jpg">
+		</div>
+	</div>
+
+	<div class="categories_pic">
+		<div class="categories_wrapper">
+			<div class="categories-heading">
+				<span><i class="fas fa-angle-double-down"></i></span><h2> CATEGORIES </h2>
+			</div>
+			<div class="pics">
+				<div class="first">
+					<a href="">
+						<img src="https://media.4rgos.it/i/Argos/0719_M027_AS196497418_travelbags?qlt=75&fmt.jpeg.interlaced=true">
+						<span> Luggage & Backpacks </span>
+					</a>
+				</div>
+				<div class="second">
+					<a href="">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIlJS2RFO2amCoU5fxvxzRhelxmSoMd7dZEw&usqp=CAU">
+						<span> Footwear </span>
+					</a>
+				</div>
+				<div class="third">
+					<a href="">
+						<img src="https://assets.teenvogue.com/photos/62cd79bf9116dd22289750ed/16:9/w_2560%2Cc_limit/GettyImages-487770577.jpg">
+						<span> Beauty </span>
+					</a>
+				</div>
+				<div class="forth">
+					<a href="">
+						<img src="https://m.economictimes.com/thumb/msid-93171891,width-1200,height-800,resizemode-4,imgsize-33064/luxury-watch.jpg">
+						<span> Watches </span>
+					</a>
+				</div>
+				<div class="fifth">
+					<a href="">
+						<img src="https://i.guim.co.uk/img/media/4d01c8e642b6cace4de963859631b55e6bbd1b49/0_30_4368_2621/master/4368.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6d81f28273e9108fbc0df4a206114c47">
+						<span> Clothing </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- product section started -->
+
+	<div class="product">
+		<div class="product_heading">
+			<span><i class="fas fa-angle-double-down"></i></span><h2> PRODUCTS </h2>
+		</div>
+		<div class="product_pics">
+			<div class="first">
+				<a href="#">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8BX1uacAo9DxAcakYzgc2b5h7F5GehdbznA&usqp=CAU" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Leather shoes</h2>
+							<h3>299/-</h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="second">
+				<a href="#">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4rploZQpAsGakvIXyWGbnloAx6U5T6tmaWWm5CPNYmgZOK1OkXOfOPKNY_e8Hv7KdfAk&usqp=CAU" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Watch</h2>
+							<h3>499/- </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="third">
+				<a href="#">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRLWvCa0GQkounPWAqhPNJFzKsjWYDT_7v3w&usqp=CAU" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2>Allen Solly Men Shirt</h2>
+							<h3>599/-</h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="forth">
+				<a href="#">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyCWyAl-g7yUVWG4i-SqEYgY7_VL3PuBpOOA&usqp=CAU" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2>Denim Jeans</h2>
+							<h3>699/-</h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- product section started -->
+
+	<div class="product">
+		<div class="product_pics">
+			<div class="first">
+				<a href="#">
+					<img src="https://m.media-amazon.com/images/I/61ma3XvrHYS.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2>All in One MakeUp Kit</h2>
+							<h3>399/-</h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="second">
+				<a href="#">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOgd1qyryQ-49HlsiOzs_t-5gmP5taNsCRBXPjrmtGFwopgWXt_ZjqJI9dpZrRBLKhpQU&usqp=CAU" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2>Trolley Bags</h2>
+							<h3>1999/-</h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="third">
+				<a href="#">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQAolTBcfKXIgIkurVzKExTNoMJB_YmB4tA&usqp=CAU" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2>Remote control Helicopter</h2>
+							<h3>999/-</h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="forth">
+				<a href="#">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2QvJZ7dWJp-_OYNFuGccZgUaTGSzIYwoaXg&usqp=CAU" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2>Women Western top</h2>
+							<h3>599/-</h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+    
+
+	<!---product section start's here-->
+
+</div>
+<div class="product_pics">
+	<div class="first">
+		<a href="#">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmhxYdLxvKT-LPD-lTDuR74VIhZHVvy_gJGg&usqp=CAU">
+			<div class="overly-product">
+				<div class="overly-wrapper">
+					<div id="heart"><i class="fas fa-heart"></i></div>
+					<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+					<h2> Selfi stick</h2>
+					<h3>299/-</h3>
+					<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+				</div>
+			</div>
+		</a>
+	</div>
+	/div>
+	<div class="second">
+		<a href="#">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVsAQQJu-MWWGOV3bjmu0AEZqZy6LRdqseAA&usqp=CAU">
+			<div class="overly-product">
+				<div class="overly-wrapper">
+					<div id="heart"><i class="fas fa-heart"></i></div>
+					<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+					<h2>Sofa set</h2>
+					<h3>5999/-</h3>
+					<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="third">
+		<a href="#">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdi4BdzvKhRqJ2tYGy0wuAMUGN1oJML8LaQ&usqp=CAU">
+			<div class="overly-product">
+				<div class="overly-wrapper">
+					<div id="heart"><i class="fas fa-heart"></i></div>
+					<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+					<h2>vivo y3311u</h2>
+					<h3>3999/-</h3>
+					<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="forth">
+		<a href="#">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRphpbpUBWO0vjbOhP5yD__-9Uc4bh1PJ8efQ&usqp=CAU">
+			<div class="overly-product">
+				<div class="overly-wrapper">
+					<div id="heart"><i class="fas fa-heart"></i></div>
+					<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+					<h2>Study table</h2>
+					<h3>399/-</h3>
+					<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+</div>
+<!-- resent post sectio-->
+	
+	
+
+
+
+	<!-- Subscribe section -->
+  <section id="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="subscribe-area">
+            <div class="h3">Subscribe our newsletter </div>
+            <p> Need more help? </p>
+            <form action="" class="subscribe-form">
+              <input type="email" name="" id="" placeholder="Enter your Email" class="subscibe_email">
+              <a href="#"><input type="submit" value="Subscribe" class="subscribe_submit"></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Subscribe section -->
+
+
+  <!--start footer section   -->
+	<footer class="footer-distributed">
+			<div class="footer-left">
+				<h3>Shopping<span>Site</span></h3>
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Delivery</a>
+					·
+					<a href="#">Returns</a>
+					·
+					<a href="#">Discount</a>
+					·
+					<a href="#">Special Offer</a>
+					·
+					<a href="#">Contact Us</a>
+				</p>
+				<p class="footer-company-name">AbcdTechnology &copy; 2020</p>
+			</div>
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>200 Revolution Street</span> Delhi , India</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 6304526974</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">contact@abcdtechnology.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Abcd Technology is a blog for web designers, graphic designers, web developers &amp; SEO Learner.
+				</p>
+				<div class="footer-icons">
+					<img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg"
+					, height="30px" ,width="30px"><i class="fa fa-instagram"></i></a>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png"
+					, height="30px" ,width="30px"><i class="fa fa-facebook"></i></a>
+					<img src="http://store-images.s-microsoft.com/image/apps.50484.9007199266244427.4d45042b-d7a5-4a83-be66-97779553b24d.2c71c1ea-c28f-4dd1-b72d-c43cdd3476f4"
+					, height="30px" ,width="30px"><i class="fa fa-twitter"></i></a>
+					<img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw"
+					, height="30px" ,width="30px"><i class="fa fa-linkedin"></i></a>
+				</div>
+			</div>
+		</footer>
+	
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+
+		});
+
+
+	</script>
+
+
+</body>
+</html>
